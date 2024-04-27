@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+}
+.contaner{
+    height: 100vh;
+    width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: aqua;
+gap: 5vh;
+} 
+img{
+    height: 60%;
+    width: 30%;
+    border-radius: 10px;
+    transition-duration: 1s;
+
+    
+}
+img:hover{
+    transform: rotateY(180deg);
+}
